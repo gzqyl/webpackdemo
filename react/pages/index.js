@@ -73,6 +73,12 @@ class Home extends Component{
               
             </p>
             </Link>
+            <Link href="/posts/ssg-ssr">
+              <p>
+              <a>Dynamic Routes</a>
+              
+            </p>
+            </Link>
             <Profile />
             <button onClick={()=>this.showMsg()}>show tip</button>
           </section>
